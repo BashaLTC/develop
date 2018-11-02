@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="testcases.TestCase_5">
+        <methods>
+          <include name="IRCTC_cab_WithoutPNR" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testcases.TestCase_5 -->
+      <class name="testcases.Testcase_4">
+        <methods>
+          <include name="IRCTC_Cab_withPNR"/>
+        </methods>
+      </class> <!-- testcases.Testcase_4 -->
+      <class name="testcases.TestCase_1">
+        <methods>
+          <include name="irctcsignup" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testcases.TestCase_1 -->
+      <class name="testcases.TestCase_2">
+        <methods>
+          <include name="Hotel_Booking" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- testcases.TestCase_2 -->
+      <class name="testcases.TestCase_3">
+        <methods>
+          <include name="NVSP_form"/>
+        </methods>
+      </class> <!-- testcases.TestCase_3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
